@@ -1,0 +1,48 @@
+body{
+	text-align:center;
+}
+p{  
+	color:#800000;
+	font-family:"garamond";
+	font-size:200%;
+	font-weight:bold;
+}
+#fname{
+	width:50%;
+	border-width:3px;
+	height:30px;
+}
+#sbt-key{
+	background-color:#800000;
+	color:white;
+	font-family:"garamond";
+	font-weight:"bold";
+}
+#sbt-key:active{
+	color:#800000;
+}
+#title{
+	font-size:90%;
+}
+#synop{
+	color:black;
+	font-size:70%;
+	padding-left:25%;
+	padding-right:25%;
+}
+label{
+    font-family:"garamond";
+	font-weight:"bold";  
+	color:#800000;
+}
+#num{
+	width:4%;
+	text-align:center;
+	color:#800000;
+}
+#similarity{
+	font-family:"garamond";
+	font-size:70%;
+	font-weight:"bold";  
+	color:#800000;
+}

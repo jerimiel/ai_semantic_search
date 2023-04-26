@@ -1,0 +1,3 @@
+TMDB_KEY = "0095c30467aeba58190c55606d73991b"
+PINECONE_API_KEY = "e6a9aeba-037f-4d2f-8bbd-dd8ad8d2d093"
+PINECONE_ENV = "asia-southeast1-gcp"

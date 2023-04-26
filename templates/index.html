@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search app</title>
+	<link rel="stylesheet" href= "{{ url_for('static',filename='index.css') }}" />
+
+</head>
+<body>
+<p>Short description of movie to search for</p>
+    <form action="movies" method="post">
+    <input type="text" id="fname" name="fname" placeholder="movie about ..."><br><br>
+	<label for="num">number of results:</label>
+	<input type="number" id="num" name="num" min=0 placeholder=3 value=3>
+	<input type="submit" id="sbt-key" value="Submit">
+	</form>
+
+{%for i,j,k in result%}
+<p id="title">{{i}}</p>
+<p id="synop">{{j}} ... {{k}} similarity</p>
+<br>
+{%endfor%}
+
+
+</body>
+</html>
